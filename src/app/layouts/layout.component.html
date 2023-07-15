@@ -1,0 +1,14 @@
+<div class="min-h-full" *ngIf="vm$ | async as vm">
+  <ng-container *ngIf="!vm.isLoading">
+    <app-top-menu [sections]="vm.sections" [isSideMenuOpen]="sideMenu.isOpen"
+      (toggleSideMenu)="sideMenu.toggleMenu()"></app-top-menu>
+    <app-side-menu [sections]="vm.sections" #sideMenu>
+      <div class="mx-auto bg-slate-100 h-full min-h-screen -mt-32 pt-32">
+        <router-outlet></router-outlet>
+      </div>
+    </app-side-menu>
+    <div class="w-full bg-slate-900 flex items-center justify-center py-8">
+      <span class="text-center text-white">jusrus01 @ 2023</span>
+    </div>
+  </ng-container>
+</div>

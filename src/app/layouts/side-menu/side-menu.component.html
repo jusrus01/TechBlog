@@ -1,0 +1,11 @@
+<mat-sidenav-container [hasBackdrop]="true" class="sidenav-container">
+    <mat-sidenav #sidenav [(opened)]="isOpen" mode="over" class="sidenav mt-16 w-64" [fixedInViewport]="true">
+        <!-- Sidenav content -->
+        <ng-container *ngFor="let section of sections">
+            <app-top-menu-item [section]="section" [sections]="section.sections"></app-top-menu-item>
+        </ng-container>
+    </mat-sidenav>
+    <mat-sidenav-content class="h-full">
+        <ng-content></ng-content>
+    </mat-sidenav-content>
+</mat-sidenav-container>

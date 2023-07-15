@@ -1,0 +1,11 @@
+::ng-deep .mat-mdc-menu-content {
+    @apply bg-slate-900;
+}
+
+::ng-deep .mat-mdc-menu-submenu-icon {
+    @apply text-white;
+}
+
+::ng-deep .mat-mdc-menu-panel.mat-mdc-menu-panel {
+    @apply bg-slate-900;
+}

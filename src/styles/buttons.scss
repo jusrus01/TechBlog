@@ -1,0 +1,29 @@
+.btn {
+    @apply cursor-pointer inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply bg-indigo-700 hover:bg-indigo-800 focus:ring-indigo-600;
+  }
+  
+  .btn-secondary {
+    @apply text-gray-700 border-gray-300 bg-white hover:bg-gray-50;
+  }
+  
+  .btn-danger {
+    @apply text-red-700 bg-red-100 hover:bg-red-200 focus:ring-red-500;
+  }
+  .btn-info {
+    @apply border bg-white border-gray-200 text-gray-900 hover:bg-gray-50;
+    &--active {
+      @apply bg-indigo-600 border-indigo-700 text-white hover:bg-indigo-700 hover:text-white;
+    }
+  }
+  .btn-transparent {
+    @apply text-indigo-600 shadow-none hover:text-indigo-700;
+  }
+  
+  .btn[disabled] {
+    pointer-events: none;
+    opacity: 0.8;
+  }

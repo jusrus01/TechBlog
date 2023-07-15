@@ -1,0 +1,17 @@
+<div *ngIf="section !== null">
+    <ng-container *ngIf="section.sections !== null">
+        <button mat-menu-item [matMenuTriggerFor]="sections">
+            <span class="text-white">
+                {{ section.name }}
+            </span>
+        </button>
+        <mat-menu #sections="matMenu">
+            <app-top-menu-item *ngFor="let s of section.sections" [section]="s" [sections]="s.sections"></app-top-menu-item>
+        </mat-menu>
+    </ng-container>
+    <button [routerLink]="['/post', section.fileName]" mat-menu-item *ngIf="section.sections === null">
+        <span class="text-white">
+            {{ section.name }}
+        </span>
+    </button>
+</div>

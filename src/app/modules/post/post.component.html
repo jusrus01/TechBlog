@@ -1,0 +1,8 @@
+<div *ngIf="vm$ | async as vm" class="bg-slate-100 lg:px-72">
+    <div *ngIf="!vm.postBody">
+        Post does not exist :(
+    </div>
+    <div *ngIf="vm.postBody">
+        <markdown [data]="vm.postBody"></markdown>
+    </div>
+</div>
