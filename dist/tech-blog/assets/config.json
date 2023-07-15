@@ -1,0 +1,14 @@
+{
+    "sections": [
+        {
+            "name": ".NET",
+            "sections": [
+                {
+                    "name": "Ways to handle generic interfaces in a collection",
+                    "sections": null,
+                    "fileName": "waysToHandleGenericInterfacesInACollection.md"
+                }
+            ]
+        }
+    ]
+}
