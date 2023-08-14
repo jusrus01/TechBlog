@@ -36,5 +36,9 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
+a {
+  @apply no-underline;
+}
+
 @import 'styles/buttons.scss';
 //@import '~ngx-markdown/themes/prism-atom-dark.css';
