@@ -9,9 +9,12 @@ import { TopMenuStore } from './top-menu/top-menu.store';
 })
 export class LayoutComponent {
   public readonly vm$: Observable<{sections: Section[], isLoading: boolean}>;
+
+  public currentDate: Date;
   
   constructor(private store: TopMenuStore) {
     this.vm$ = store.vm$;
+    this.currentDate = new Date();
   }
 
   ngOnInit(): void {
