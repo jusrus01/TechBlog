@@ -1,7 +1,7 @@
 {
     "sections": [
         {
-            "name": ".NET Fundamentals",
+            "name": ".NET",
             "sections": [
                 {
                     "name": "The difference between unmanaged and managed code vs. unmanaged and managed types",
@@ -11,42 +11,11 @@
             ]
         },
         {
-            "name": ".NET / .NET Core",
-            "sections": [
-                {
-                    "name": "Assembly",
-                    "sections": [
-                        {
-                            "name": "Applications of the assemblies in normal software development",
-                            "sections": null,
-                            "fileName": "applicationsOfTheAssembliesInNormalSoftwareDevelopment.md"
-                        }
-                    ]
-                },
-                {
-                    "name": "Ways to handle generic interfaces in a collection",
-                    "sections": null,
-                    "fileName": "waysToHandleGenericInterfacesInACollection.md"
-                }
-            ]
-        },
-        {
             "name": "Docker",
-            "sections": null
-        },
-        {
-            "name": "CI / CD",
-            "sections": null
-        },
-        {
-            "name": "AWS",
             "sections": [
                 {
-                    "name": "AWS Lambda",
-                    "sections": null
-                },
-                {
-                    "name": "AWS SQS",
+                    "name": "Container usage in normal development",
+                    "fileName": "dockerContainerUsageInNormalDevelopment.md",
                     "sections": null
                 }
             ]
