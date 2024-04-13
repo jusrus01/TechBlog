@@ -1,8 +1,109 @@
 {
     "sections": [
         {
-            "name": ".NET Fundamentals",
+            "name": ".NET",
             "sections": [
+                {
+                    "name": "Checklist",
+                    "sections": [
+                        {
+                            "name": "Types",
+                            "sections": [
+                                {
+                                    "name": "General"
+                                },
+                                {
+                                    "name": "Interfaces"
+                                },
+                                {
+                                    "name": "Nullable types"
+                                },
+                                {
+                                    "name": "Numeric types"
+                                },
+                                {
+                                    "name": "String / chars"
+                                },
+                                {
+                                    "name": "Date and time"
+                                },
+                                {
+                                    "name": "Parsing / conversions"
+                                },
+                                {
+                                    "name": "Generics"
+                                },
+                                {
+                                    "name": "Delegates"
+                                },
+                                {
+                                    "name": "Events"
+                                },
+                                {
+                                    "name": "Lambda expressions"
+                                },
+                                {
+                                    "name": "Dynamic type"
+                                },
+                                {
+                                    "name": "Comparison"
+                                },
+                                {
+                                    "name": "Arrays"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "LINQ",
+                            "sections": [
+                                {
+                                    "name": "Queries"
+                                },
+                                {
+                                    "name": "LINQ to SQL / Entity Framework"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Garbage Collection / Disposal"
+                        },
+                        {
+                            "name": "Concurrency",
+                            "sections": [
+                                {
+                                    "name": "Threads"
+                                },
+                                {
+                                    "name": "Tasks"
+                                },
+                                {
+                                    "name": "Async functions",
+                                    "fileName": "checkList2023AsyncFunctions.md",
+                                    "sections": null
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Streams and I/O",
+                            "fileName": "checkList2023StreamsAndIO.md",
+                            "sections": null
+                        },
+                        {
+                            "name": "Networking",
+                            "fileName": "checkList2023Networking.md",
+                            "sections": null
+                        },
+                        {
+                            "name": "Serialization"
+                        },
+                        {
+                            "name": "Reflection"
+                        },
+                        {
+                            "name": "Security"
+                        }
+                    ]
+                },
                 {
                     "name": "The difference between unmanaged and managed code vs. unmanaged and managed types",
                     "fileName": "theDifferenceBetweenUnmanagedCodeVsUnmanagedTypes.md",
@@ -11,42 +112,11 @@
             ]
         },
         {
-            "name": ".NET / .NET Core",
-            "sections": [
-                {
-                    "name": "Assembly",
-                    "sections": [
-                        {
-                            "name": "Applications of the assemblies in normal software development",
-                            "sections": null,
-                            "fileName": "applicationsOfTheAssembliesInNormalSoftwareDevelopment.md"
-                        }
-                    ]
-                },
-                {
-                    "name": "Ways to handle generic interfaces in a collection",
-                    "sections": null,
-                    "fileName": "waysToHandleGenericInterfacesInACollection.md"
-                }
-            ]
-        },
-        {
             "name": "Docker",
-            "sections": null
-        },
-        {
-            "name": "CI / CD",
-            "sections": null
-        },
-        {
-            "name": "AWS",
             "sections": [
                 {
-                    "name": "AWS Lambda",
-                    "sections": null
-                },
-                {
-                    "name": "AWS SQS",
+                    "name": "Container usage in normal development",
+                    "fileName": "dockerContainerUsageInNormalDevelopment.md",
                     "sections": null
                 }
             ]
