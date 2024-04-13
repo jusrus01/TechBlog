@@ -6,7 +6,8 @@
             </span>
         </button>
         <mat-menu #sections="matMenu">
-            <app-top-menu-item *ngFor="let s of section.sections" [section]="s" [sections]="s.sections"></app-top-menu-item>
+            <app-top-menu-item *ngFor="let s of section.sections" [section]="s"
+                [sections]="s.sections"></app-top-menu-item>
         </mat-menu>
     </ng-container>
     <button [routerLink]="['/post', section.fileName]" mat-menu-item *ngIf="section.sections === null">
